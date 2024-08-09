@@ -1,2 +1,2 @@
-# Day Wise Codes
-In this repository, I will share all codes that love babbar taught in his class or gave as homework.
+A repository to keep record of all codes I wrote while learning DSA.
+It's public so that it can be seen in my contribution chart.
