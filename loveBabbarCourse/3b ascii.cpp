@@ -1,4 +1,4 @@
-// ASCII values
+// ASCII values and coditionals
 #include <iostream>
 using namespace std;
 
