@@ -1,6 +1,5 @@
 // Binary to decimal
 #include <iostream>
-#include<cmath>
 using namespace std;
 
 int main() {
