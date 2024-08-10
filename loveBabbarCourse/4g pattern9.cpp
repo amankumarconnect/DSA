@@ -7,14 +7,11 @@ int main() {
   cout << "Enter n: ";
   cin >> n;
   int i = 1;
-  int p;
   while (i <= n) {
     int j = 1;
-    p = i;
     while (j <= i) {
-      cout << p;
+      cout << (i+j-1);
       j++;
-      p++;
     }
     cout << endl;
     i++;
