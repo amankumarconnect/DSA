@@ -8,11 +8,11 @@ int main() {
   cout << "Enter n: ";
   cin >> n;
   int dec =0;
-  int i = 0;
+  int base = 1;
   while(n){
-    dec+= pow(2,i)*(n%10);
+    dec+= base*(n%10);
     n/=10;
-    i++;
+    base *=2;
   }
   cout<<dec;
   return 0;
