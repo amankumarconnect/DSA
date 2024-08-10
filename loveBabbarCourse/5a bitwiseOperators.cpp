@@ -10,5 +10,7 @@ int main() {
   cout<<"a|b: "<<(a|b)<<endl;
   cout<<"a^b: "<<(a^b)<<endl;
   cout<<"~a: "<<(~a)<<endl;
+  cout<<"a>>2: "<<(a>>5)<<endl;
+  cout<<"a<<2: "<<(a<<5)<<endl;
   return 0;
 }
