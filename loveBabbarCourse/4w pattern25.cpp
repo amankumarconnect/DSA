@@ -9,23 +9,19 @@ int main() {
   int i = 0;
   while (i < n) {
     int j = 0;
-    int p = 1;
     while (j < (n - i - 1)) {
       cout << "  ";
       j++;
     }
     j = 0;
     while (j < (i + 1)) {
-      cout << p << " ";
+      cout << (j+1) << " ";
       j++;
-      p++;
     }
-    p=i;
     j=0;
     while(j<i){
-      cout<<p<<" ";
+      cout<<(i-j)<<" ";
       j++;
-      p--;
     }
     cout << endl;
     i++;
