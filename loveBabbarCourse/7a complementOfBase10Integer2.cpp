@@ -1,4 +1,4 @@
-// Complement of base 10 integer
+// Complement of base 10 integer 2
 #include <iostream>
 using namespace std;
 
