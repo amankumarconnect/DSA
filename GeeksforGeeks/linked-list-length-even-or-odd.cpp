@@ -17,11 +17,11 @@ class Solution {
         // Code here
         Node* temp = *head;
         int count = 0;
-        while(temp){
+        while(temp&&temp->next){
             count++;
-            temp = temp->next;
+            temp = temp->next->next;
         }
-        if(count&1) return false;
+        if(temp) return false;
         else return true;
     }
 };
