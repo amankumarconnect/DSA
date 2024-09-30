@@ -4,10 +4,11 @@ class Solution {
     string removeChars(string string1, string string2) {
         // code here
         string str;
-        unordered_map<char,int> maps;
-        for(char c: string2) maps[c]++;
+        int hash[257];
+        for(int i = 0; i<257; i++) hash[i] = 0;
+        for(char c: string2) hash[c]++;
         for(char c: string1){
-            if(!maps[c]) str+=c;
+            if(!hash[c]) str+=c;
         }
         return str;
     }
